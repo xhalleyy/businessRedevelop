@@ -7,7 +7,11 @@
     font-family: 'Stardos Stencil';
 }
 
-.headerDesc{
+.headerDesc,
+.menuCategories,
+.iconText,
+.milkSubs,
+.items-style{
     font-family: 'Bitter';
 }
 
@@ -36,4 +40,43 @@
     font-weight: 700;
     margin-top: 25px;
     color: white;
+}
+
+/* sticky side-bar */
+
+.menuCategories,
+.items-style{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.iconText{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.milkSubs{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* Menu Items */
+.whiteBG{
+    background-color: white;
+    border-radius: 8px;
+}
+
+.purpleBorder{
+    border: 24px solid #D3BEEF;
+    border-radius: 20px;
+}
+
+.blueBorder{
+    border: 24px solid #9FC6E9;
+    border-radius: 20px;
+}
+
+.items-desc{
+    font-size: 25px;
+    font-weight: 400;
 }
