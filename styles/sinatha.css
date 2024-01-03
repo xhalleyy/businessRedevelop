@@ -2,3 +2,29 @@
     width: 150px;
     height: auto;
 }
+
+.bgImage {
+    background-image: url(../assets/heroimg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+}
+
+.navBarFont {
+    color: black;
+}
+
+.btn-bd-primary {
+    font-weight: 600;
+    color: black;
+    background-color: #FDD7D2;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.viewMenu button:hover {
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: white;
+    background-color: #BBF2FA;
+    color: #FF9C8E;
+}
