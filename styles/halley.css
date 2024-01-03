@@ -1,0 +1,39 @@
+.lightPinkBG{
+    background-color: #FDD7D2;
+}
+
+/* Fonts */
+.menuText{
+    font-family: 'Stardos Stencil';
+}
+
+.headerDesc{
+    font-family: 'Bitter';
+}
+
+/* Hero Image and Header */
+.menuHero{
+   background-image: url(../assets/menu_component.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.menuHeader{
+    margin-top: 570px;
+    margin-bottom: 120px;
+}
+
+.menuText{
+    font-size: 70px;
+    background-color: #FBF6C7;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.headerDesc {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 25px;
+    color: white;
+}
