@@ -88,7 +88,12 @@
 .horizontalLine {  
     border: none; 
     border-bottom: 3px dotted gainsboro;  
-   }
+}
+
+.topLine{
+    border: none; 
+    border-top: 3px dotted gainsboro;  
+}
 
 hr{
     border-top: 2px dotted;
@@ -101,7 +106,7 @@ p.items-desc {
 
 h2.items-style{
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .space{
@@ -134,3 +139,6 @@ h2.items-style{
     line-height: 1.7rem;
 }
 
+.col-7{
+    width: 62%;
+}
