@@ -11,7 +11,8 @@
 .menuCategories,
 .iconText,
 .milkSubs,
-.items-style{
+.items-style,
+.items-desc{
     font-family: 'Bitter';
 }
 
@@ -44,6 +45,28 @@
 
 /* sticky side-bar */
 
+#sidebar {
+    height: 600px;
+    margin: 20px 0px;
+}
+
+#content-area {
+    height: auto;
+}
+
+.sticky-sidebar{
+    position: sticky;
+    width: 100%;
+    top: 40px;
+    /* top and the topSpace in JS have to be the same */
+}
+
+.bottom-fixed-sidebar{
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 0px;
+}
+
 .menuCategories,
 .items-style{
     font-size: 30px;
@@ -61,6 +84,30 @@
 }
 
 /* Menu Items */
+
+.horizontalLine {  
+    border: none; 
+    border-bottom: 3px dotted gainsboro;  
+   }
+
+hr{
+    border-top: 2px dotted;
+    opacity: .3;
+}
+
+p.items-desc {
+    margin-bottom: 5px;
+}
+
+h2.items-style{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.space{
+    color: white;
+}
+
 .whiteBG{
     background-color: white;
     border-radius: 8px;
@@ -76,7 +123,14 @@
     border-radius: 20px;
 }
 
+.redBorder {
+    border: 24px solid #DD9292;
+    border-radius: 20px;
+}
+
 .items-desc{
     font-size: 25px;
     font-weight: 400;
+    line-height: 1.7rem;
 }
+

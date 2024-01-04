@@ -12,113 +12,229 @@
   </head>
   <body class="lightPinkBG">
     <!-- Hero Image / Carousel -->
-    <div class="container-fluid menuHero">
-      <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4 menuHeader text-center">
-          <h1 class="menuText">Browse Our Menu</h1>
-          <p class="headerDesc">broaden your milk tea and beverage palate by exploring our many different flavors</p>
+    <div id="topCarousel">
+      <div class="container-fluid menuHero">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4 menuHeader text-center">
+            <h1 class="menuText">Browse Our Menu</h1>
+            <p class="headerDesc">broaden your milk tea and beverage palate by exploring our many different flavors</p>
+          </div>
+          <div class="col-4"></div>
         </div>
-        <div class="col-4"></div>
       </div>
     </div>
 
-    <!-- Sticky Side Bar -->
+    <!-- Sticky- SideBar / Categories -->
     <div class="container-fluid">
-      <div class="row ">
-        <div class="col-3 mt-5 pt-4 text-center position-fixed" id="sticky-sidebar">
-          <h2 class="menuCategories py-2">Toppings</h2>
-          <h2 class="menuCategories py-2">New/Seasonal</h2>
-          <h2 class="menuCategories py-2">Milk Tea</h2>
-          <h2 class="menuCategories py-2">Fruit Tea</h2>
-          <h2 class="menuCategories py-2">Ice Lattes</h2>
-          <h2 class="menuCategories py-2">Special Matcha</h2>
-          <h2 class="menuCategories py-2">Crafted Coffee</h2>
-          <h2 class="menuCategories py-2">Premium Smoothies & Slushies</h2>
-          <h2 class="menuCategories py-2">Sea Crema & Honey Fresh Tea</h2>
-          <h2 class="menuCategories py-2">Snacks & Meals</h2>
+      <div class="row">
+        <div class="col-lg-3 mt-5 pt-4 text-center">
+          <div id="sidebar">
+            <div id="content-wrapper">
+              <h2 class="menuCategories py-2">Toppings</h2>
+              <h2 class="menuCategories py-2">New/Seasonal</h2>
+              <h2 class="menuCategories py-2">Milk Tea</h2>
+              <h2 class="menuCategories py-2">Fruit Tea</h2>
+              <h2 class="menuCategories py-2">Ice Lattes</h2>
+              <h2 class="menuCategories py-2">Special Matcha</h2>
+              <h2 class="menuCategories py-2">Crafted Coffee</h2>
+              <h2 class="menuCategories py-2">Premium Smoothies & Slushies</h2>
+              <h2 class="menuCategories py-2">Sea Crema & Honey Fresh Tea</h2>
+              <h2 class="menuCategories py-2">Snacks & Meals</h2>
+            </div>
+          </div>
         </div>
-        <!-- Menu : Not Sticky -->
-        <div class="col-9 offset-3 mt-5 pt-4" id="main">
-          <div class="row text-center">
-            <div class="col-1"></div>
-            <div class="col">
-              <h2 class="iconText">milk substitutes</h2>
-              <p class="milkSubs my-0">organic almond</p>
-              <p class="milkSubs my-0">organic soy</p>
-              <p class="milkSubs my-0">organic oat</p>
-            </div>
-            <div class="col">
-              <h2 class="iconText">recommended</h2>
-            </div>
-            <div class="col">
-              <h2 class="iconText">no caffeine</h2>
-            </div>
-            <div class="col-1"></div>
-          </div>
-          <!-- Toppings -->
-          <div class="row mt-5">
-            <div class="col-1"></div>
-            <div class="col whiteBG purpleBorder py-5 pe-5">
-              <div class="row">
-                <div class="col-10 pe-0 ps-5">
-                  <h2 class="items-style">
-                    Boba <hr> Crystal Boba <hr> 
-                    Jelly <br> 
-                    <span class="items-desc">lychee, strawberry, coconut, rainbow, aiyu jelly, herbal grass</span> <hr>
-                    Pop Ball <br> 
-                    <span class="items-desc">strawberry, mango, passion fruit, peach, yogurt, blueberry</span> <hr>
-                    Pudding <br> 
-                    <span class="items-desc">egg matcha, herbal grass</span> <hr>
-                    Fruit Bits <br> 
-                    <span class="items-desc">strawberry, mango, lychee</span> <hr>
-                    Crema <br> 
-                    <span class="items-desc">sea salt, cheese, brulee</span> <hr>
-                    Chia Seed <hr>Aloe Vera
-                  </h2>
-                </div>
-                <div class="col-2 ps-0 text-end">
-                  <h2 class="items-style">
-                    0.60 <hr> 0.75 <hr> 0.70 <br><br><hr> 0.75 <br><br><hr> 0.70 <br><br><hr> 0.75 <br><br><hr> 0.75 <br><br><hr> 0.55 <hr> 0.60
-                  </h2>
-                </div>
-              </div>
-            </div>
-            <div class="col-1"></div>
-          </div>
 
-          <!-- New/Seasonal -->
-          <div class="row mt-5">
-            <div class="col-1"></div>
-            <div class="col whiteBG blueBorder py-5 pe-5">
-              <div class="row">
-                <div class="col-10"></div>
-                <div class="col-2 text-center">
-                  <p class="items-style">L(only)</p>
+      <!-- Menu Content and Items -->
+        <div class="col-lg-9 mt-5 pt-4">
+          <div id="content-area">
+            <div class="container-fluid">
+              <div class="row text-center">
+                <div class="col-1"></div>
+                <div class="col">
+                  <h2 class="iconText">milk substitutes</h2>
+                  <p class="milkSubs my-0">organic almond</p>
+                  <p class="milkSubs my-0">organic soy</p>
+                  <p class="milkSubs my-0">organic oat</p>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-10 pe-0 ps-5">
-                  <h2 class="items-style">
-                    Mango Sago <br>
-                    <span class="items-desc">real mango blended, creamy coconut milk, sago + mango jelly + aloe vera</span> <hr>
-                    Mouldy Pumpkin <br>
-                    <span class="items-desc">creepy version of 'ube matcha latte' with pumpkin spice sure</span> <hr>
-                  </h2>
+                <div class="col">
+                  <h2 class="iconText">recommended</h2>
                 </div>
-                <div class="col-2 ps-0 text-center">
-                  <h2 class="items-style">
-                    7.25 <br><br> <hr> 7.00 <br><br><hr>
-                  </h2>
+                <div class="col">
+                  <h2 class="iconText">no caffeine</h2>
                 </div>
+                <div class="col-1"></div>
               </div>
             </div>
-            <div class="col-1"></div>
+  
+            <!-- Toppings -->
+            <div class="container-fluid">
+              <div class="row mt-5">
+                <div class="col-1"></div>
+                <div class="col whiteBG purpleBorder py-5 pe-5">
+          
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-10 pe-0 ps-5">
+                        <h2 class="items-style">Boba</h2> <hr>
+                        <h2 class="items-style">Crystal Boba</h2> <hr>
+                        <h2 class="items-style">Jelly</h2>
+                        <p class="items-desc">lychee, strawberry, coconut, rainbow, aiyu jelly, herbal grass</p> <hr>
+                        <h2 class="items-style">Pop Ball</h2>
+                        <p class="items-desc">strawberry, mango, passion fruit, peach, yogurt, blueberry</p> <hr>
+                        <h2 class="items-style">Pudding</h2>
+                        <p class="items-desc">egg matcha, herbal grass</p> <hr>
+                        <h2 class="items-style">Fruit Bits</h2>
+                        <p class="items-desc">strawberry, mango, lychee</p> <hr>
+                        <h2 class="items-style">Crema</h2>
+                        <p class="items-desc">sea salt, cheese, brulee</p> <hr>
+                        <h2 class="items-style">Chia Seed</h2> <hr>
+                        <h2 class="items-style">Aloe Vera</h2>
+                      </div>
+                      <div class="col-2 ps-0 text-end">
+                        <h2 class="items-style">0.60</h2> <hr>
+                        <h2 class="items-style">0.75</h2> <hr>
+                        <h2 class="items-style">0.70</h2> 
+                        <span class="space items-desc">space</span><hr>
+                        <h2 class="items-style">0.75</h2> 
+                        <span class="space items-desc">space</span><hr>
+                        <h2 class="items-style">0.70</h2> 
+                        <span class="space items-desc">space</span><hr>
+                        <h2 class="items-style">0.75</h2> 
+                        <span class="space items-desc">space</span><hr>
+                        <h2 class="items-style">0.75</h2> 
+                        <span class="space items-desc">space</span><hr>
+                        <h2 class="items-style">0.55</h2><hr>
+                        <h2 class="items-style">0.60</h2> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1"></div>
+              </div>
+            </div>
+  
+            <!-- New/Seasonal -->
+            <div class="container-fluid">
+              <div class="row mt-5">
+                <div class="col-1"></div>
+                <div class="col whiteBG blueBorder py-5 pe-5">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-10"></div>
+                      <div class="col-2 text-end pe-0">
+                        <p class="items-style">L(only)</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-10 pe-0 ps-5">
+                        <h2 class="items-style">Mango Sago</h2>
+                        <p class="items-desc">real mango blended, creamy coconut milk, sago + mango jelly + aloe vera</p> <hr>
+                        <h2 class="items-style">HOT Matcha Latte</h2>
+                        <p class="items-desc">ceremonial matcha with hint of vanilla in sweet steamed milk</p> <hr>
+                        <h2 class="items-style">HOT Ube Latte</h2>
+                        <p class="items-desc">real ube paste with sweet condensed milk (light caffeine)</p><hr>
+                      </div>
+                      <div class="col-2 ps-0 text-end">
+                        <h2 class="items-style">7.25</h2>
+                        <span class="space items-desc">space</span><hr>
+                        <h2 class="items-style">7.00</h2>
+                        <span class="space items-desc">space</span><hr>
+                        <h2 class="items-style">7.25</h2>
+                        <!-- <h2 class="items-style">
+                          7.25 <br><br> <hr> 7.00 <br><br><hr>
+                        </h2> -->
+                      </div>
+                      <div class="col-6 pe-0 ps-5">
+                        <h2 class="items-style">
+                          Mango Sago <br>
+                          <span class="items-desc">real mango blended, creamy coconut milk, sago + mango jelly + aloe vera</span> <hr>
+                          HOT Matcha Latte <br>
+                          <span class="items-desc">ceremonial matcha with hint of vanilla in sweet steamed milk</span> <hr>
+                          HOT Ube Latte <br>
+                
+                        </h2>
+                      </div>
+                      <div class="col-6 "></div>
+                    </div>
+                    <div class="col-1"></div>
+                  </div>
+                </div>
+                <div class="col-1"></div>
+              </div>
+            </div>
+
+            <div class="container-fluid">
+              <div class="row mt-5">
+                <div class="col-1"></div>
+                <div class="col whiteBG redBorder py-5 pe-5">
+                  <div class="container-fluid ps-5">
+                    <div class="row">
+                      <div class="col-9"></div>
+                      <div class="col text-center items-style">M</div>
+                      <div class="col text-center items-style">L</div>
+                    </div>
+                    <div class="row horizontalLine">
+                      <div class="col-9 pe-0">
+                        <h2 class="items-style">Signature</h2>
+                        <p class="items-desc">classic yet fancy and extra creamy black milk tea and 100% brown cane sugar</p>
+                      </div>
+                      <div class="col items-style text-center">5.50</div>
+                      <div class="col ps-0 items-style text-center">6.50</div>
+                    </div>
+                    <div class="row horizontalLine">
+                      <div class="col-9 pe-0">
+                        <h2 class="items-style">Oolong</h2>
+                        <p class="items-desc">creamy and strong roasted oolong milk tea</p>
+                      </div>
+                      <div class="col items-style text-center">5.25</div>
+                      <div class="col ps-0 items-style text-center">6.00</div>
+                    </div>
+                    <div class="row horizontalLine">
+                      <div class="col-9 pe-0">
+                        <h2 class="items-style">Assam</h2>
+                        <p class="items-desc">deep, rich, earthy, full-bodied flavor assam milk tea</p>
+                      </div>
+                      <div class="col items-style text-center">5.25</div>
+                      <div class="col ps-0 items-style text-center">6.00</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1"></div>
+              </div>
+            </div>
+
+<!-- Template For Now
+            <div class="container-fluid">
+              <div class="row mt-5">
+                <div class="col-1"></div>
+                <div class="col whiteBG redBorder py-5 pe-5">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-9"></div>
+                      <div class="col text-center items-style">M</div>
+                      <div class="col text-center items-style">L</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-9 pe-0 ps-5">
+                      <h2>Mango</h2>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col ps-0"></div>
+                  </div>
+                </div>
+                <div class="col-1"></div>
+              </div>
+            </div> -->
+
+
           </div>
         </div>
-        <!-- Menu Items: Toppings -->
       </div>
     </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../scripts/app.js"></script>
   </body>
 </html>
