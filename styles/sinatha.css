@@ -31,7 +31,7 @@
 /* hero image css end */
 
 /* view menu button + comments start */
-.btn-bd-primary {
+.btnMenu {
     font-weight: 600;
     color: black;
     background-color: #FDD7D2;
@@ -76,7 +76,7 @@
 /* about us card start */
 .aboutTitleFont {
     font-family: 'Stardos Stencil';
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bolder;
     color: black;
 }
@@ -107,6 +107,40 @@
 .card {
     --bs-card-border-width: 0px;
 }
+/* about us card end */
 
+/* best selling drinks carousel start */
+.bestDrinksFont {
+    font-family: 'Stardos Stencil';
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.drinkImg {
+    width: 30px;
+    height: px;
+}
+.display {
+    display: inline-block;
+}
+
+.drinksFont {
+    font-family: 'Stardos Stencil';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carousel-indicators > li {
+    border-radius: 50%;
+  }
+/* best-selling drinks carousel end */
+
+/* explore more drinks start */
+.exploreMore {
+    font-family: 'Bitter';
+    font-weight: bolder;
+    color: #005E75;
+    font-size: 20px;
+}
 
 
