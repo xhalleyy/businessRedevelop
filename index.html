@@ -8,38 +8,91 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/sinatha.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600;700&family=Stardos+Stencil:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 
+  <!-- NAVBAR AND HERO IMAGE START -->
+
+  <!-- GRAB NAVBAR HERE @ HALLEY & JERIAH, TAKE OUT BGIMAGE CLASS -->
   <div class="container-fluid bgImage">
-    <div class="row" style="background: rgba(249, 165, 165, 0.6)">
-      <div class="col">
-        <ul class="nav justify-content-center">
-          <li class="nav-item" style="margin-top: 38px;">
-            <a class="nav-link active navBarFont" aria-current="page" href="#">Home</a>
+    <div class="row" style="background: rgba(249, 165, 165, 0.4); backdrop-filter: blur(10px);">
+      <div style="margin-left: 230px; margin-right: 200px;" class="col navBarFont">
+        <ul class="nav justify-content-evenly">
+          <li class="nav-item" style="margin-top: 50px;">
+            <a class="nav-link active navBarFont navHover navActive" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item" style="margin-top: 38px;">
-            <a class="nav-link navBarFont" href="#">Menu</a>
+          <li class="nav-item" style="margin-top: 50px;">
+            <a class="nav-link navBarFont navHover navActive" href="./pages/menupage.html">Menu</a>
           </li>
           <li>
             <img class="logoImg" src="./assets/teaAmoLogo 1.png" alt="">
           </li>
-          <li class="nav-item" style="margin-top: 38px;">
-            <a class="nav-link navBarFont" href="#">Reviews</a>
+          <li class="nav-item" style="margin-top: 50px;">
+            <a class="nav-link navBarFont navHover navActive" href="./pages/reviewpage.html">Reviews</a>
           </li>
-          <li class="nav-item" style="margin-top: 38px;">
-            <a class="nav-link navBarFont" href="">Contact</a>
+          <li class="nav-item" style="margin-top: 50px;">
+            <a class="nav-link navBarFont navHover navActive" href="./pages/contactpage.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
+    <!-- HALLEY & JERIAH END OF NAVBAR -->
+    <!-- NAVBAR AND HERO IMAGE END -->
 
-    <div class="row" style="margin-top: 500px;">
+
+    <!-- VIEW MENU BUTTON AND TEXT START -->
+    <div class="row" style="margin-top: 400px;">
       <div class="col viewMenu d-flex justify-content-center">
-        <button style="margin-bottom: 100px;" type="button" class="btn btn-bd-primary viewMenu">
+        <button type="button" class="btn btn-bd-primary menuBtnShadow menuBtnFont">
           View Our Menu
         </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <p style="margin-top: 30px;" class="d-flex justify-content-center menuCommentsFont">scroll to learn more about us!
+      </p>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <img style="width: 60px; height: 60px;" src="./assets/arrow down.png" alt="">
+    </div>
+    <!-- VIEW MENU BUTTON AND TEXT END -->
+  </div>
+
+  <!-- NAVBAR AND HERO IMAGE END -->
+
+
+  <!-- CONTAINER FOR THE REST OF HOME PAGE -->
+
+  <div class="container-fluid" style="background-color: #FBCCC6;">
+    <div class="row d-flex justify-content-center">
+      <div class="card mb-3 aboutCard" style=" max-width: 80%; margin-top: 60px; border-radius: 15px;">
+        <div class="row ">
+        
+          <div style="padding: 10px; padding-left: 50px; padding-right: 50px; margin-top: 10px;" class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title aboutTitleFont">about us</h5>
+              <p class="card-text aboutBodyFont">
+                Tea Amo is a delightful tea room utilizing unique blend of traditional teas and Asian fusion cuisine. Our establishment captures the essence of a perfect tea experience!
+              </p>
+              <p class="card-text aboutBodyFont">
+                Indulge in the wide variety of refreshing and flavorsome bubble teas available. From classic milk teas to fruity concoctions, our vibrant selection will surely satisfy your taste buds. Don't miss out on the flavorful Asian fusion dishes offered at Tea Amo. Whether you're craving savory snacks, hearty meals, or delicious desserts, the menu caters to all preferences!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-5 hidden" style="border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+            <img src="./assets/image 4.png" class="aboutImg" alt="...">
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
