@@ -142,5 +142,18 @@
     color: #005E75;
     font-size: 20px;
 }
+/* explore more drinks end */
 
+/* footer start */
+.footerFont {
+    font-family: 'Bitter';
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.footerImg {
+    width: 300px;
+    height: auto;
+}
 
