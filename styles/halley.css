@@ -4,7 +4,9 @@
 
 /* Fonts */
 .menuText,
-.category{
+.category,
+.mobileMenuTxt,
+.accordion-button{
     font-family: 'Stardos Stencil';
 }
 
@@ -13,7 +15,8 @@
 .iconText,
 .milkSubs,
 .items-style,
-.items-desc{
+.items-desc,
+.mobileDesc{
     font-family: 'Bitter';
 }
 
@@ -205,4 +208,50 @@ h2.items-style{
 
 .col-7{
     width: 62%;
+}
+
+/* Menu Responsiveness Styles */
+.mobileMenuTxt{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.mobileDesc{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.mobile-yellowBG{
+    margin-top: 40px;
+    background-color: #FBF6C7;
+    border-radius: 20px;
+}
+
+
+.accordion-item,
+.accordion-button{
+    background-color: #D5E9C5;
+}
+.accordion-button {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #BBF2FA;
+}
+
+.menu-items h2 {
+    font-family: 'Bitter';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.blackLine {
+    border-bottom: 3px dashed rgba(0, 0, 0, 0.404);  
 }
