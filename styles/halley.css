@@ -255,3 +255,22 @@ h2.items-style{
 .blackLine {
     border-bottom: 3px dashed rgba(0, 0, 0, 0.404);  
 }
+
+/* icon styles */
+.material-symbols-outlined{
+    letter-spacing: 6px!important;
+    display:inline-flex !important;
+    vertical-align: text-top;
+}
+
+.iconBig{
+    font-size: 40px!important;
+}
+
+.iconSmall{
+    font-size: 30px!important;
+}
+
+.mobileIcon{
+    font-size: 17!important;
+}
