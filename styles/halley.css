@@ -3,7 +3,8 @@
 }
 
 /* Fonts */
-.menuText{
+.menuText,
+.category{
     font-family: 'Stardos Stencil';
 }
 
@@ -17,7 +18,7 @@
 }
 
 /* Hero Image and Header */
-.menuHero{
+/* .menuHero{
    background-image: url(../assets/menu_component.png);
    background-repeat: no-repeat;
    background-size: 100% 100%;
@@ -26,28 +27,41 @@
 .menuHeader{
     margin-top: 570px;
     margin-bottom: 120px;
+} */
+
+.carousel-caption {
+    bottom: 2.5rem;
 }
 
 .menuText{
     font-size: 70px;
     background-color: #FBF6C7;
     border-radius: 20px;
-    padding: 10px;
+    padding: 0px 25px;
     font-weight: 700;
+    color: black;
+    display: inline;
 }
 
 .headerDesc {
     font-size: 25px;
     font-weight: 700;
     margin-top: 25px;
-    color: white;
+    color: rgb(255, 255, 255);
+    line-height: 120%;
+    filter: drop-shadow(0 0 0.3rem rgb(128, 121, 121));
 }
 
-/* sticky side-bar */
+/* icon stylings */
+/* .arrowDown{
+    font-size: 60px!important;
+} */
 
+/* sticky side-bar */
 #sidebar {
-    height: 600px;
+    height: 750px;
     margin: 20px 0px;
+    border-right: 3px solid black;  
 }
 
 #content-area {
@@ -83,7 +97,48 @@
     font-weight: 600;
 }
 
-/* Menu Items */
+/* Menu Items & Category Name*/
+.category {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.purpleheader{
+    background-color: #D3BEEF;
+    display: inline;
+    padding: 15px 40px;
+    border-radius: 8px;
+}
+
+.blueheader {
+    background-color: #9FC6E9;
+    display: inline;
+    padding: 15px 40px;
+    border-radius: 8px;
+}
+
+.redheader{
+    background: #DD9292;
+    display: inline;
+    padding: 15px 40px;
+    border-radius: 8px;
+}
+
+.outer-block {
+    position: relative;
+    width: auto; 
+    height: auto; 
+}
+
+.inner-header {
+    position: absolute;
+    top: -15px; 
+    left: 50%;  
+}
+
+.no-text-wrap{
+    white-space: nowrap;
+}
 
 .horizontalLine {  
     border: none; 
