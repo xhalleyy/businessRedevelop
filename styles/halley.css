@@ -140,6 +140,15 @@
     white-space: nowrap;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a .menuCategories:hover {
+    background-color: #BBF2FA;
+}
+
 .horizontalLine {  
     border: none; 
     border-bottom: 3px dotted gainsboro;  
