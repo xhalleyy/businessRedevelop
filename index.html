@@ -18,10 +18,68 @@
 
 <body>
 
+  <!-- NAVBAR MOBILE RESPONSIVENESS START -->
+  <div class="container-fluid showSmall">
+    <div class="row showSmall bgImage2">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid" style="background: rgba(249, 165, 165, 0.4); backdrop-filter: blur(10px);">
+          <a class="navbar-brand" href="#">
+            <img class="logoImgSmall" src="./assets/teaAmoLogo 1.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title offcanvasHeaderFont" id="offcanvasNavbarLabel">TEA AMO</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active offcanvasFont" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active offcanvasFont" href="./pages/menupage.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active offcanvasFont" href="./pages/reviewpage.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active offcanvasFont" href="./pages/contactpage.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- VIEW MENU BUTTON MOBILE RESPONSIVENESS START -->
+      <div class="row showSmall" style="padding-bottom: 70px; padding-top: 100px;">
+        <div class="col  d-flex justify-content-center">
+          <a style="text-decoration: none;" href="./pages/menupage.html"><button type="button"
+              class="btnMenuSmall menuBtnShadow" style="margin-top: 50px;">
+              View Our Menu
+            </button></a>
+        </div>
+      </div>
+
+      <!-- VIEW MENU BUTTON MOBILE RESPONSIVENESS END -->
+    </div>
+  </div>
+  <!-- NAVBAR MOBILE RESPONSIVENESS END -->
+
+  <!-- ///////////////////////////////////// -->
+    
   <!-- NAVBAR AND HERO IMAGE START -->
 
   <!-- GRAB NAVBAR HERE @ HALLEY & JERIAH, TAKE OUT BGIMAGE CLASS -->
-  <div class="container-fluid bgImage bgImage2">
+  <div class="container-fluid bgImage hideSmall">
     <div class="row" style="background: rgba(249, 165, 165, 0.4); backdrop-filter: blur(10px);">
       <!-- NAVBAR HIDDEN ON ANYTHING SMALLER THAN LG -->
       <div style="margin-left: 230px; margin-right: 200px;" class="col navBarFont d-none d-lg-block">
@@ -48,6 +106,7 @@
     <!-- HALLEY & JERIAH END OF NAVBAR -->
     <!-- NAVBAR AND HERO IMAGE END -->
 
+    <!-- //////////////////////////// -->
 
     <!-- VIEW MENU BUTTON AND TEXT START -->
     <div class="row hideSmall" style="margin-top: 400px;">
@@ -60,40 +119,33 @@
     </div>
 
     <div class="row hideSmall">
-      <p style="margin-top: 30px;" class="d-flex justify-content-center menuCommentsFont">scroll to learn more about us!
+      <p style="margin-top: 50px;" class="d-flex justify-content-center menuCommentsFont">scroll to learn more about us!
       </p>
     </div>
 
     <div class="row d-flex justify-content-center hideSmall">
-      <img class="hideSmall" style="width: 60px; height: 40px; margin-bottom: 65px;" src="./assets/arrow down.png"
+      <img class="hideSmall" style="width: 60px; height: 40px; margin-bottom: 70px;" src="./assets/arrow down.png"
         alt="">
     </div>
     <!-- VIEW MENU BUTTON AND TEXT END -->
 
-    <!-- VIEW MENU BUTTON MOBILE RESPONSIVENESS START -->
-    <div class="row showSmall" style="padding-bottom: 70px; padding-top: 100px;">
-      <div class="col  d-flex justify-content-center">
-        <a style="text-decoration: none;" href="./pages/menupage.html"><button type="button"
-          class="btnMenuSmall menuBtnShadow" style="margin-top: 50px;">
-          View Our Menu
-        </button></a>
-      </div>
-    </div>
 
-    <!-- VIEW MENU BUTTON MOBILE RESPONSIVENESS END -->
   </div>
 
   <!-- NAVBAR AND HERO IMAGE END -->
 
+  <!-- ///////////////////////////////// -->
 
   <!-- CONTAINER FOR THE REST OF HOME PAGE -->
 
   <div class="container-fluid" style="background-color: #FBCCC6;">
     <div class="row d-flex justify-content-center hideSmall">
       <div class="card mb-3 aboutCard hideSmall" style=" max-width: 80%; margin-top: 60px; border-radius: 15px;">
+
+
         <!-- ABOUT US START -->
         <div class="row hideSmall">
-          <div style="padding: 10px; padding-left: 50px; padding-right: 50px; margin-top: 10px;" class="col-md-7">
+          <div style="padding: 10px; padding-left: 50px !important; padding-right: 50px !important; margin-top: 10px;" class="col-md-7">
             <div class="card-body">
               <h5 class="card-title aboutTitleFont">about us</h5>
               <p class="card-text aboutBodyFont">
@@ -123,9 +175,11 @@
       <div class="col-10" style="margin-top: 40px;">
         <div class="aboutUsSmall">
           <p class="aboutSmlTitle">about us</p>
-          <p class="aboutSmlFont"> Tea Amo is a delightful tea room utilizing unique blend of traditional teas and Asian fusion cuisine.
+          <p class="aboutSmlFont"> Tea Amo is a delightful tea room utilizing unique blend of traditional teas and Asian
+            fusion cuisine.
             Our establishment captures the essence of a perfect tea experience!</p>
-          <p class="aboutSmlFont">Indulge in the wide variety of refreshing and flavorsome bubble teas available. From classic milk teas
+          <p class="aboutSmlFont">Indulge in the wide variety of refreshing and flavorsome bubble teas available. From
+            classic milk teas
             to fruity concoctions, our vibrant selection will surely satisfy your taste buds. Don't miss out on the
             flavorful Asian fusion dishes offered at Tea Amo. Whether you're craving savory snacks, hearty meals, or
             delicious desserts, the menu caters to all preferences!</p>
@@ -253,6 +307,9 @@
     </div>
 
     <!-- BEST-SELLING DRINKS END -->
+
+    <!-- BEST SELLING DRINKS MOBILE RESPONSIVENESS START -->
+
     <div class="row showSmall">
       <div class="col d-flex justify-content-center bestDrinksSmlFont" style="margin-top: 40px;">
         <p>
@@ -260,38 +317,39 @@
         </p>
       </div>
     </div>
-
     <div class="row showSmall">
       <div class="col-1"></div>
       <div class="col-10">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img style="margin-left: 70px;" src="./assets/drink1.jpg" class=" d-block bestDrinksSmlImg" alt="...">
+              <img style="margin-left: 80px;" src="./assets/drink1.jpg" class=" d-block bestDrinksSmlImg" alt="...">
               <p class="bestDrinksSmlFont2">Spooky Taro</p>
             </div>
             <div class="carousel-item">
-              <img style="margin-left: 70px;" src="./assets/drink2.jpg" class="d-block bestDrinksSmlImg" alt="...">
+              <img style="margin-left: 80px;" src="./assets/drink2.jpg" class="d-block bestDrinksSmlImg" alt="...">
               <p class="bestDrinksSmlFont2">Mango Storm</p>
             </div>
             <div class="carousel-item">
-              <img style="margin-left: 70px;" src="./assets/drink3.jpg" class="d-block bestDrinksSmlImg" alt="...">
+              <img style="margin-left: 80px;" src="./assets/drink3.jpg" class="d-block bestDrinksSmlImg" alt="...">
               <p class="bestDrinksSmlFont2">Triple Matcha</p>
             </div>
             <div class="carousel-item">
-              <img style="margin-left: 70px;" src="./assets/drink4.jpg" class="d-block bestDrinksSmlImg" alt="...">
+              <img style="margin-left: 80px;" src="./assets/drink4.jpg" class="d-block bestDrinksSmlImg" alt="...">
               <p class="bestDrinksSmlFont2">Strawberry Storm</p>
             </div>
             <div class="carousel-item">
-              <img style="margin-left: 70px;" src="./assets/drink5.jpg" class="d-block bestDrinksSmlImg" alt="...">
+              <img style="margin-left: 80px;" src="./assets/drink5.jpg" class="d-block bestDrinksSmlImg" alt="...">
               <p class="bestDrinksSmlFont2">Signature Milk Tea</p>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -299,9 +357,6 @@
       </div>
       <div class="col-1"></div>
     </div>
-    <!-- BEST SELLING DRINKS MOBILE RESPONSIVENESS START -->
-
-
     <!-- BEST SELLING DRINKS MOBILE RESPONSIVENESS END -->
 
     <!-- EXPLORE MORE BTN START -->
@@ -318,8 +373,7 @@
     <!-- EXPLORE MORE BTN RESPONSIVENESS START -->
     <div class="row showSmall">
       <div class="col d-flex justify-content-center" style="margin-bottom: 50px; margin-top: 10px;">
-        <a href="./pages/menupage.html"><button type="button"
-            class="btn btn-light exploreMoreSml">
+        <a href="./pages/menupage.html"><button type="button" class="btn btn-light exploreMoreSml">
             explore more drinks >
           </button></a>
       </div>
@@ -352,8 +406,7 @@
   <!-- FOOTER END -->
 
   <!-- FOOTER MOBILE RESPONSIVENESS START -->
-  <div class="container-fluid showSmall"
-    style="background-color: #AA7D7D; padding-left: 20px;">
+  <div class="container-fluid showSmall" style="background-color: #AA7D7D; padding-left: 20px;">
     <div class="row">
       <div class="col-8 footerFont">
         <p style="margin-top: 20px;">

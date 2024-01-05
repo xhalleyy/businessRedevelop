@@ -212,7 +212,7 @@
     }
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991px) {
     .bgImage2 {
         background-image: url(../assets/heroimg.png);
         background-repeat: no-repeat;
@@ -227,7 +227,7 @@
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
     .showSmall {
         display: none;
     }
@@ -248,7 +248,7 @@
 }
 
 .aboutUsSmall {
-    background-color: #FBF6C7;
+    background-color: #FBFFEE;
     border-radius: 20px;
     padding: 15px;
 
@@ -313,13 +313,42 @@
     overflow: hidden;
 }
 
-.row>*{
+.row>* {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
-/* section {
-    height: 80px;
-    display: flex;                   
-    align-items: flex-end;           
-  } */
+.logoImgSmall {
+    width: 100px;
+    height: auto;
+    margin-bottom: -5px;
+    margin-top: px;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+.offcanvas-body {
+    background: rgb(249, 165, 165) !important;
+}
+
+.offcanvas-header {
+    background: rgb(249, 165, 165) !important;
+}
+
+.offcanvasHeaderFont {
+    font-family: 'Stardos Stencil';
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.offcanvasFont {
+    font-family: 'Stardos Stencil';
+    font-weight: bold;
+    font-size: 30px;
+}
