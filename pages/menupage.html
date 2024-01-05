@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/halley.css">
+  <link rel="stylesheet" href="../styles/sinatha.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -18,7 +19,30 @@
 </head>
 
 <body class="lightPinkBG">
-
+  <!-- NavBar -->
+  <div class="nav-bg-color">
+    <div style="margin-left: 230px; margin-right: 200px;" class="col navBarFont d-none d-lg-block">
+      <ul class="nav justify-content-evenly">
+        <li class="nav-item" style="margin-top: 50px;">
+          <a class="nav-link active navBarFont navHover navActive" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item" style="margin-top: 50px;">
+          <a class="nav-link navBarFont navHover navActive" href="./menupage.html">Menu</a>
+        </li>
+        <li>
+          <a href="../index.html">
+            <img class="logoImg" src="../assets/teaAmoLogo 1.png" alt="Tea Amo Logo">
+          </a>
+        </li>
+        <li class="nav-item" style="margin-top: 50px;">
+          <a class="nav-link navBarFont navHover navActive" href="./reviewpage.html">Reviews</a>
+        </li>
+        <li class="nav-item" style="margin-top: 50px;">
+          <a class="nav-link navBarFont navHover navActive" href="./contactpage.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
   <!-- Carousel -->
   <div class="d-none d-lg-block">
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -112,12 +136,12 @@
           <div class="container-fluid">
             <div class="row text-center milk-margin">
               <div class="col">
-                
+
                 <div class="container-fluid d-flex">
                   <div class="row ">
                     <div class="col-2"></div>
                     <div class="col d-none d-xl-block d-flex align-items-center px-0">
-                      <img class="img-fluid" src="../assets/milk-icon-3.jpg" alt="">
+                      <img width="70px" height="55px" src="../assets/milk-icon-3.jpg" alt="">
                     </div>
                     <div class="col-xl px-0">
                       <h2 class="iconText">milk substitutes</h2>
@@ -127,16 +151,17 @@
                     </div>
                   </div>
                 </div>
-              
+
               </div>
               <div class="col">
                 <h2 class="iconText">
                   <span class="material-symbols-outlined iconBig">thumb_up</span>
-                  recommended</h2>
+                  recommended
+                </h2>
               </div>
               <div class="col">
                 <h2 class="iconText"><span class="material-symbols-outlined iconBig">
-                  cancel
+                    cancel
                   </span>no caffeine</h2>
               </div>
               <div class="col-1"></div>
@@ -285,7 +310,7 @@
                       <div class="col-6 pe-0">
                         <div class="container-fluid">
                           <div class="row horizontalLine">
-                            <div class="col-10 px-0">
+                            <div class="col-9 px-0">
                               <h2 class="items-style">HOT Ube Latte</h2>
                               <p class="items-desc">hot drink of real ube paste with sweet steamed milk *light caffeine
                               </p>
@@ -295,7 +320,7 @@
                             </div>
                           </div>
                           <div class="row horizontalLine">
-                            <div class="col-10 px-0">
+                            <div class="col-9 px-0">
                               <h2 class="items-style">Ube Oreo Milk Tea</h2>
                               <p class="items-desc">yummy ube paste with oreao crumbs in a classic black milk tea</p>
                             </div>
@@ -304,7 +329,7 @@
                             </div>
                           </div>
                           <div class="row">
-                            <div class="col-10 px-0">
+                            <div class="col-9 px-0">
                               <h2 class="items-style">HOT Honey Jasmine Tea</h2>
                             </div>
                             <div class="col pe-0">
@@ -344,7 +369,7 @@
                     <div class="row horizontalLine">
                       <div class="col-9 pe-0">
                         <h2 class="items-style">Signature <span class="material-symbols-outlined iconSmall">
-                          thumb_up
+                            thumb_up
                           </span></h2>
                         <p class="items-desc">classic yet fancy and extra creamy black milk tea and 100% brown cane
                           sugar
@@ -409,7 +434,7 @@
                     <div class="row horizontalLine">
                       <div class="col-9 pe-0">
                         <h2 class="items-style">Tea Amo Uji <span class="material-symbols-outlined iconSmall">
-                          thumb_up
+                            thumb_up
                           </span></h2>
                         <p class="items-desc">matcha x green milk tea, served in fresh brulee crema cup for a creamier
                           matcha drink</p>
@@ -503,7 +528,7 @@
                           <div class="row horizontalLine">
                             <div class="col-7 pe-0">
                               <h2 class="items-style">Hokkaido <span class="material-symbols-outlined iconSmall">
-                                thumb_up
+                                  thumb_up
                                 </span></h2>
                               <p class="items-desc">authentic japanese creamy butterscotch-flavored green milk tea</p>
                             </div>
@@ -541,7 +566,7 @@
                           <div class="row">
                             <div class="col-7 pe-0">
                               <h2 class="items-style">Lavender <span class="material-symbols-outlined iconSmall">
-                                cancel
+                                  cancel
                                 </span></h2>
                               <p class="items-desc">lavender milk tea</p>
                             </div>
@@ -617,8 +642,9 @@
                     </div>
                     <div class="row horizontalLine">
                       <div class="col-9 pe-0">
-                        <h2 class="items-style">Kumquat the High Class <span class="material-symbols-outlined iconSmall">
-                          thumb_up
+                        <h2 class="items-style">Kumquat the High Class <span
+                            class="material-symbols-outlined iconSmall">
+                            thumb_up
                           </span></h2>
                         <p class="items-desc">kumquat jasmine tea with lemon slices and chia seeds</p>
                       </div>
@@ -674,7 +700,7 @@
                           <div class="row horizontalLine">
                             <div class="col-7 pe-0">
                               <h2 class="items-style">Peachy Giant <span class="material-symbols-outlined iconSmall">
-                                thumb_up
+                                  thumb_up
                                 </span></h2>
                               <p class="items-desc">premium peach black tea with some huge peach slices</p>
                             </div>
@@ -715,7 +741,7 @@
                           <div class="row horizontalLine">
                             <div class="col-7 pe-0">
                               <h2 class="items-style">Super C <span class="material-symbols-outlined iconSmall">
-                                thumb_up
+                                  thumb_up
                                 </span></h2>
                               <p class="items-desc">mango-grapefruit-lime juice jasmine green tea</p>
                             </div>
@@ -729,7 +755,7 @@
                           <div class="row">
                             <div class="col-7 pe-0">
                               <h2 class="items-style">Tropical Medley <span class="material-symbols-outlined iconSmall">
-                                thumb_up
+                                  thumb_up
                                 </span></h2>
                               <p class="items-desc">grapefruit, passion fruit, apple slices, mango bits, and green tea
                               </p>
@@ -769,7 +795,7 @@
                     <div class="row horizontalLine">
                       <div class="col-9 pe-0">
                         <h2 class="items-style">Thai Tea Ice Latte <span class="material-symbols-outlined iconSmall">
-                          thumb_up
+                            thumb_up
                           </span></h2>
                         <p class="items-desc">traditional thai black tea</p>
                       </div>
@@ -809,7 +835,7 @@
                     <div class="row horizontalLine">
                       <div class="col-9 pe-0">
                         <h2 class="items-style">Taro Mess Latte <span class="material-symbols-outlined iconSmall">
-                          thumb_up
+                            thumb_up
                           </span></h2>
                         <p class="items-desc">real taro root paste in fresh sweet milk</p>
                       </div>
@@ -842,7 +868,7 @@
           <!-- Special Matcha -->
           <div class="container-fluid">
             <div class="outer-block">
-              <div class="inner-header" >
+              <div class="inner-header">
                 <h1 id="matchas" class="category redheader">Special Matcha</h1>
               </div>
               <div class="row mt-5">
@@ -897,7 +923,7 @@
                       <div class="row topLine">
                         <div class="col-10">
                           <h2 class="items-style">Triple Matcha <span class="material-symbols-outlined iconSmall">
-                            thumb_up
+                              thumb_up
                             </span></h2>
                           <p class="items-desc">bottom to top: matcha pudding, fresh milk, and ceremonial matcha with
                             sea
@@ -920,7 +946,7 @@
                       <div class="row">
                         <div class="col-10">
                           <h2 class="items-style">Tea Amo Matcha <span class="material-symbols-outlined iconSmall">
-                            thumb_up
+                              thumb_up
                             </span></h2>
                           <p class="items-desc">house special high-graded ceremonial matcha powder and fresh whole milk
                           </p>
@@ -1040,7 +1066,7 @@
           <!-- Crafted Coffee -->
           <div class="container-fluid">
             <div class="outer-block">
-              <div class="inner-header" >
+              <div class="inner-header">
                 <h1 id="coffees" class="category blueheader">Crafted Coffee</h1>
               </div>
               <div class="row mt-5">
@@ -1055,7 +1081,7 @@
                     <div class="row horizontalLine">
                       <div class="col-9 pe-0">
                         <h2 class="items-style">House Coffee <span class="material-symbols-outlined iconSmall">
-                          thumb_up
+                            thumb_up
                           </span></h2>
                         <p class="items-desc">vietnamese coffee sweetened by condensed milk, creamer, and a hint of
                           hazelnut flavor</p>
@@ -1070,7 +1096,7 @@
                     <div class="row horizontalLine">
                       <div class="col-9 pe-0">
                         <h2 class="items-style">Coconut Coffee <span class="material-symbols-outlined iconSmall">
-                          thumb_up
+                            thumb_up
                           </span></h2>
                         <p class="items-desc">vietnamese coffee with a thick layer of coconut milk on top.</p>
                       </div>
@@ -1096,7 +1122,7 @@
                     <div class="row horizontalLine">
                       <div class="col-9 pe-0">
                         <h2 class="items-style">Macchiato Coffee <span class="material-symbols-outlined iconSmall">
-                          thumb_up
+                            thumb_up
                           </span></h2>
                         <p class="items-desc">asian-style slow-drip french-roast black coffee with the famous
                           ghirardelli
@@ -1193,7 +1219,7 @@
                           <div class="row horizontalLine">
                             <div class="col-10 px-0">
                               <h2 class="items-style">Pina Colada <span class="material-symbols-outlined iconSmall">
-                                thumb_up
+                                  thumb_up
                                 </span></h2>
                               <p class="items-desc">refreshing pineapple-coconut milkshake with coconut flakes</p>
                             </div>
@@ -1204,7 +1230,7 @@
                           <div class="row horizontalLine">
                             <div class="col-10 px-0">
                               <h2 class="items-style">Choco Taro <span class="material-symbols-outlined iconSmall">
-                                thumb_up
+                                  thumb_up
                                 </span></h2>
                               <p class="items-desc">taro smoothies with hershey chocolate drizzle on cup wall</p>
                             </div>
@@ -1228,15 +1254,15 @@
                       </div>
                     </div>
                     <div class="row pe-5">
-                      <div class="col-xl-4 pe-4 d-flex justify-content-center align-items-end">
+                      <div class="col-xl-5 col-lg-6 pe-4 d-flex justify-content-center align-items-end">
                         <img src="../assets/smoothies2.png" alt="">
                       </div>
-                      <div class="col-8">
+                      <div class="col-xl-7 ">
                         <div class="container-fluid">
                           <div class="row horizontalLine">
                             <div class="col-10 pe-0">
                               <h2 class="items-style">Chamango <span class="material-symbols-outlined iconSmall">
-                                thumb_up
+                                  thumb_up
                                 </span></h2>
                               <p class="items-desc">fresh mango puree slush with chamoy & tajin. Comes with Mango
                                 Popping
@@ -1491,7 +1517,8 @@
         <!-- Toppings -->
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
               Toppings
             </button>
           </h2>
@@ -1577,7 +1604,8 @@
         <!-- New / Seasonal -->
         <div class="accordion-item mt-3">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
               New/ Seasonal
             </button>
           </h2>
@@ -1586,7 +1614,9 @@
               <div class="container-fluid">
                 <div class="row menu-items">
                   <div class="col-9"></div>
-                  <div class="col-3 px-0 text-end"><h2>L(only)</h2></div>
+                  <div class="col-3 px-0 text-end">
+                    <h2>L(only)</h2>
+                  </div>
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-9">
@@ -1643,7 +1673,8 @@
         <!-- Milk Teas -->
         <div class="accordion-item mt-3">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
               Milk Tea
             </button>
           </h2>
@@ -1652,8 +1683,12 @@
               <div class="container-fluid">
                 <div class="row menu-items">
                   <div class="col-6"></div>
-                  <div class="col text-center pe-0"><h2>M</h2></div>
-                  <div class="col text-center pe-0"><h2>L</h2></div>
+                  <div class="col text-center pe-0">
+                    <h2>M</h2>
+                  </div>
+                  <div class="col text-center pe-0">
+                    <h2>L</h2>
+                  </div>
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-6">
@@ -1679,11 +1714,11 @@
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-6">
-                    <h2>Tea Amo <span class="no-text-wrap"> 
-                      Uji <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                    <h2>Tea Amo <span class="no-text-wrap">
+                        Uji <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col-3 text-center">
                     <h2>5.25</h2>
@@ -1695,7 +1730,7 @@
                 <div class="row menu-items blackLine">
                   <div class="col-6">
                     <h2>Signature <span class="material-symbols-outlined mobileIcon">
-                      thumb_up
+                        thumb_up
                       </span></h2>
                   </div>
                   <div class="col-3 text-center">
@@ -1752,7 +1787,7 @@
                 <div class="row menu-items blackLine">
                   <div class="col-6">
                     <h2>Hokkaido <span class="material-symbols-outlined mobileIcon">
-                      thumb_up
+                        thumb_up
                       </span></h2>
                   </div>
                   <div class="col-3 text-center">
@@ -1835,7 +1870,8 @@
         <!-- Fruit Tea -->
         <div class="accordion-item mt-3">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
               Fruit Tea
             </button>
           </h2>
@@ -1844,8 +1880,12 @@
               <div class="container-fluid">
                 <div class="row menu-items">
                   <div class="col-6"></div>
-                  <div class="col text-center"><h2>M</h2></div>
-                  <div class="col text-center pe-0"><h2>L</h2></div>
+                  <div class="col text-center">
+                    <h2>M</h2>
+                  </div>
+                  <div class="col text-center pe-0">
+                    <h2>L</h2>
+                  </div>
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-6 pe-0">
@@ -1872,10 +1912,10 @@
                 <div class="row menu-items blackLine">
                   <div class="col-6 pe-0">
                     <h2>Kumquat High <span class="no-text-wrap">
-                      Class <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Class <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col text-center pe-0">
                     <h2>4.50</h2>
@@ -1909,10 +1949,10 @@
                 <div class="row menu-items blackLine">
                   <div class="col-6 pe-0">
                     <h2>Peachy <span class="no-text-wrap">
-                      Giant<span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Giant<span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col text-center pe-0">
                     <h2>5.25</h2>
@@ -1957,10 +1997,10 @@
                 <div class="row menu-items blackLine">
                   <div class="col-6 pe-0">
                     <h2>Super <span class="no-text-wrap">
-                      C <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        C <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col text-center pe-0">
                     <h2>-</h2>
@@ -1972,10 +2012,10 @@
                 <div class="row menu-items">
                   <div class="col-6 pe-0">
                     <h2>Tropical <span class="no-text-wrap">
-                      Melody <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Melody <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col text-center pe-0">
                     <h2>-</h2>
@@ -1991,7 +2031,8 @@
         <!-- Iced Lattes -->
         <div class="accordion-item mt-3">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
               Iced Lattes
             </button>
           </h2>
@@ -2000,8 +2041,12 @@
               <div class="container-fluid">
                 <div class="row menu-items">
                   <div class="col-6"></div>
-                  <div class="col text-center pe-0"><h2>M</h2></div>
-                  <div class="col text-center pe-0"><h2>L</h2></div>
+                  <div class="col text-center pe-0">
+                    <h2>M</h2>
+                  </div>
+                  <div class="col text-center pe-0">
+                    <h2>L</h2>
+                  </div>
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-6 pe-0">
@@ -2028,10 +2073,10 @@
                 <div class="row menu-items blackLine">
                   <div class="col-6 pe-0">
                     <h2>Thai Ice Tea <span class="no-text-wrap">
-                      Latte <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Latte <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col text-center pe-0">
                     <h2>5.50</h2>
@@ -2054,10 +2099,10 @@
                 <div class="row menu-items">
                   <div class="col-6 pe-0">
                     <h2>Taro Mess <span class="no-text-wrap">
-                      Latte <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Latte <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col text-center pe-0">
                     <h2>5.50</h2>
@@ -2073,7 +2118,8 @@
         <!-- Special Matcha -->
         <div class="accordion-item mt-3">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
               Special Matcha
             </button>
           </h2>
@@ -2082,7 +2128,9 @@
               <div class="container-fluid">
                 <div class="row menu-items">
                   <div class="col-9"></div>
-                  <div class="col-3 px-0 text-end"><h2>L(only)</h2></div>
+                  <div class="col-3 px-0 text-end">
+                    <h2>L(only)</h2>
+                  </div>
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-9 pe-0">
@@ -2111,10 +2159,10 @@
                 <div class="row menu-items blackLine">
                   <div class="col-9 pe-0">
                     <h2>Triple <span class="no-text-wrap">
-                      Matcha <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Matcha <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col pe-0 text-end">
                     <h2>7.25</h2>
@@ -2123,10 +2171,10 @@
                 <div class="row menu-items blackLine">
                   <div class="col-9 pe-0">
                     <h2>Tea Amo <span class="no-text-wrap">
-                      Matcha <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Matcha <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col pe-0 text-end">
                     <h2>7.50</h2>
@@ -2147,7 +2195,8 @@
         <!-- Stormy Series -->
         <div class="accordion-item mt-3">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
               Stormy Series
             </button>
           </h2>
@@ -2156,7 +2205,9 @@
               <div class="container-fluid">
                 <div class="row menu-items">
                   <div class="col-9"></div>
-                  <div class="col-3 px-0 text-end"><h2>L(only)</h2></div>
+                  <div class="col-3 px-0 text-end">
+                    <h2>L(only)</h2>
+                  </div>
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-9 pe-0">
@@ -2229,7 +2280,8 @@
         <!-- Crafted Coffees -->
         <div class="accordion-item mt-3">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
               Crafted Coffee
             </button>
           </h2>
@@ -2238,16 +2290,20 @@
               <div class="container-fluid">
                 <div class="row menu-items">
                   <div class="col-6"></div>
-                  <div class="col text-center pe-0"><h2>M</h2></div>
-                  <div class="col text-center pe-0"><h2>L</h2></div>
+                  <div class="col text-center pe-0">
+                    <h2>M</h2>
+                  </div>
+                  <div class="col text-center pe-0">
+                    <h2>L</h2>
+                  </div>
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-6 pe-0">
                     <h2>House <span class="no-text-wrap">
-                      Coffee <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Coffee <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col text-center pe-0">
                     <h2>5.75</h2>
@@ -2270,10 +2326,10 @@
                 <div class="row menu-items blackLine">
                   <div class="col-6 pe-0">
                     <h2>Macchiato <span class="no-text-wrap">
-                      Coffee <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Coffee <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col text-center pe-0">
                     <h2>6.00</h2>
@@ -2295,11 +2351,11 @@
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-6 pe-0">
-                    <h2 >Coconut <span class="no-text-wrap">
-                      Coffee <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                    <h2>Coconut <span class="no-text-wrap">
+                        Coffee <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col text-center pe-0">
                     <h2>6.00</h2>
@@ -2326,7 +2382,8 @@
         <!-- Sea Crema & Honey Fresh Tea -->
         <div class="accordion-item mt-3">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
               Sea Crema & Honey Fresh Tea
             </button>
           </h2>
@@ -2335,7 +2392,9 @@
               <div class="container-fluid">
                 <div class="row menu-items">
                   <div class="col-9"></div>
-                  <div class="col-3 px-0 text-end"><h2>L(only)</h2></div>
+                  <div class="col-3 px-0 text-end">
+                    <h2>L(only)</h2>
+                  </div>
                 </div>
                 <div class="row menu-items blackLine">
                   <div class="col-9 pe-0">
@@ -2368,7 +2427,8 @@
         <!-- Premium Slushies & Smoothies -->
         <div class="accordion-item mt-3">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
               Premium Smoothies & Slushies
             </button>
           </h2>
@@ -2377,7 +2437,9 @@
               <div class="container-fluid">
                 <div class="row menu-items">
                   <div class="col-9"></div>
-                  <div class="col-3 px-0 text-end"><h2>L(only)</h2></div>
+                  <div class="col-3 px-0 text-end">
+                    <h2>L(only)</h2>
+                  </div>
                 </div>
                 <div class="row menu-items text-endtems blackLine">
                   <div class="col-9 pe-0">
@@ -2398,7 +2460,7 @@
                 <div class="row menu-items blackLine">
                   <div class="col-9 pe-0">
                     <h2>Chamango <span class="material-symbols-outlined mobileIcon">
-                      thumb_up
+                        thumb_up
                       </span></h2>
                   </div>
                   <div class="col pe-0 text-end">
@@ -2416,10 +2478,10 @@
                 <div class="row menu-items blackLine">
                   <div class="col-9 pe-0">
                     <h2>Pina <span class="no-text-wrap">
-                      Colada <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Colada <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col pe-0 text-end">
                     <h2>7.25</h2>
@@ -2460,10 +2522,10 @@
                 <div class="row menu-items blackLine">
                   <div class="col-9 pe-0">
                     <h2>Choco <span class="no-text-wrap">
-                      Taro <span class="material-symbols-outlined mobileIcon">
-                        thumb_up
+                        Taro <span class="material-symbols-outlined mobileIcon">
+                          thumb_up
                         </span>
-                    </span></h2>
+                      </span></h2>
                   </div>
                   <div class="col pe-0 text-end">
                     <h2>7.25</h2>
@@ -2484,7 +2546,8 @@
         <!-- Snacks & Meals -->
         <div class="accordion-item mt-3 mb-5">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
               Snacks & Meals
             </button>
           </h2>
@@ -2577,9 +2640,29 @@
         </div>
       </div>
     </div>
-
   </div>
-  
+
+  <!-- Footer -->
+  <div class="container-fluid"
+    style="background-color: #AA7D7D; padding-left: 70px; padding-top: 5px; padding-bottom: 5px; padding-right: 70px;">
+    <div class="row">
+      <div class="col-6 footerFont">
+        <p style="margin-top: 20px;">
+          536 N Main St
+        </p>
+        <p style="line-height: 0.2px;">
+          Manteca, CA 95336
+        </p>
+        <p style="margin-top: 30px;">
+          Call Us: (209) 435-95336
+        </p>
+      </div>
+      <div class="col-6 d-flex justify-content-end">
+        <img class="footerImg" src="../assets/Footer image.png" alt="">
+      </div>
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
