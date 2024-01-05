@@ -142,6 +142,11 @@
     color: #005E75;
     font-size: 20px;
 }
+
+.exploreMore2 {
+    --bs-btn-hover-color: 005;
+    --bs-btn-hover-bg: #BBF2FA;
+}
 /* explore more drinks end */
 
 /* footer start */
