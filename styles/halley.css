@@ -62,7 +62,7 @@
 
 /* sticky side-bar */
 #sidebar {
-    height: 750px;
+    height: 650px;
     margin: 20px 0px;
     border-right: 3px solid black;  
 }
@@ -136,7 +136,7 @@
 .inner-header {
     position: absolute;
     top: -15px; 
-    left: 50%;  
+    left: 13%;  
 }
 
 .no-text-wrap{
