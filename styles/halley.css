@@ -231,6 +231,18 @@ h2.items-style{
     background-color: #BBF2FA;
 }
 
+.accordion{
+    --bs-accordion-border-radius: 20px;
+    --bs-accordion-inner-border-radius: 20px;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-body{
+    border-radius: 20px;
+}
+
+
 .menu-items h2 {
     font-family: 'Bitter';
     font-size: 20px;
