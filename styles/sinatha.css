@@ -246,3 +246,47 @@
     padding-right: 30px;
     border: 2px solid #A76E6E;
 }
+
+.aboutUsSmall {
+    background-color: #FBF6C7;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+.aboutSmlTitle {
+    font-family: 'Stardos Stencil';
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.aboutSmlFont {
+    font-family: 'Bitter';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.aboutSmallImg {
+    width: 360px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.bestDrinksSmlFont {
+    font-family: 'Stardos Stencil';
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.bestDrinksSmlImg {
+    width: 200px;
+    height: 200px;
+}
+
+.bestDrinksSmlFont2 {
+    font-family: 'Stardos Stencil';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
