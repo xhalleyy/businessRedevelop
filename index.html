@@ -20,12 +20,13 @@
   <!-- NAVBAR AND HERO IMAGE START -->
 
   <!-- GRAB NAVBAR HERE @ HALLEY & JERIAH, TAKE OUT BGIMAGE CLASS -->
-  <div class="container-fluid bgImage">
+  <div class="container-fluid bgImage bgImage2">
     <div class="row" style="background: rgba(249, 165, 165, 0.4); backdrop-filter: blur(10px);">
-      <div style="margin-left: 230px; margin-right: 200px;" class="col navBarFont">
+      <!-- NAVBAR HIDDEN ON ANYTHING SMALLER THAN LG -->
+      <div style="margin-left: 230px; margin-right: 200px;" class="col navBarFont d-none d-lg-block">
         <ul class="nav justify-content-evenly">
           <li class="nav-item" style="margin-top: 50px;">
-            <a class="nav-link active navBarFont navHover navActive" aria-current="page" href="#">Home</a>
+            <a class="nav-link active navBarFont navHover navActive" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item" style="margin-top: 50px;">
             <a class="nav-link navBarFont navHover navActive" href="./pages/menupage.html">Menu</a>
@@ -41,29 +42,43 @@
           </li>
         </ul>
       </div>
+      <!-- END NAVBAR -->
     </div>
     <!-- HALLEY & JERIAH END OF NAVBAR -->
     <!-- NAVBAR AND HERO IMAGE END -->
 
 
     <!-- VIEW MENU BUTTON AND TEXT START -->
-    <div class="row" style="margin-top: 400px;">
-      <div class="col viewMenu d-flex justify-content-center">
-        <button type="button" class="btnMenu menuBtnShadow menuBtnFont">
+    <div class="row hideSmall" style="margin-top: 400px;">
+      <div class="col viewMenu viewMenuBtn2 d-flex justify-content-center">
+        <a style="text-decoration: none;" href="./pages/menupage.html"></a><button type="button"
+          class="btnMenu menuBtnShadow menuBtnFont viewMenuBtn2 viewMenu">
           View Our Menu
-        </button>
+        </button></a>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row hideSmall">
       <p style="margin-top: 30px;" class="d-flex justify-content-center menuCommentsFont">scroll to learn more about us!
       </p>
     </div>
 
-    <div class="row d-flex justify-content-center">
-      <img style="width: 60px; height: 60px;" src="./assets/arrow down.png" alt="">
+    <div class="row d-flex justify-content-center hideSmall">
+      <img class="hideSmall" style="width: 60px; height: 40px; margin-bottom: 65px;" src="./assets/arrow down.png" alt="">
     </div>
     <!-- VIEW MENU BUTTON AND TEXT END -->
+
+    <!-- VIEW MENU BUTTON MOBILE RESPONSIVENESS START -->
+    <div class="row showSmall" style="padding-bottom: 70px; padding-top: 100px;">
+      <div class="col  d-flex justify-content-center" >
+        <a style="text-decoration: none;" href="./pages/menupage.html"></a><button type="button"
+          class="btnMenuSmall menuBtnShadow" style="margin-top: 50px;">
+          View Our Menu
+        </button></a>
+      </div>
+    </div>
+
+    <!-- VIEW MENU BUTTON MOBILE RESPONSIVENESS END -->
   </div>
 
   <!-- NAVBAR AND HERO IMAGE END -->
@@ -211,17 +226,42 @@
       </div>
       <div class="col-2"></div>
     </div>
-    
+
     <!-- BEST-SELLING DRINKS END -->
 
+    <!-- EXPLORE MORE BTN START -->
     <div class="row">
-      <div class="col d-flex justify-content-center">
-        <button style="border-radius: 10px;" type="button" class="btn btn-light exploreMore">Explore More Drinks ></button>
+      <div class="col d-flex justify-content-center" style="margin-bottom: 50px;">
+        <a href="./pages/menupage.html"></a><button style="border-radius: 10px;" type="button"
+          class="btn btn-light exploreMore exploreMore2">
+          Explore More Drinks >
+        </button></a>
       </div>
     </div>
-
+    <!-- EXPLORE MORE BTN END -->
   </div>
 
+  <!-- FOOTER START -->
+  <div class="container-fluid"
+    style="background-color: #AA7D7D; padding-left: 70px; padding-top: 5px; padding-bottom: 5px; padding-right: 70px;">
+    <div class="row">
+      <div class="col-6 footerFont">
+        <p style="margin-top: 20px;">
+          536 N Main St
+        </p>
+        <p style="line-height: 0.2px;">
+          Manteca, CA 95336
+        </p>
+        <p style="margin-top: 30px;">
+          Call Us: (209) 435-95336
+        </p>
+      </div>
+      <div class="col-6 d-flex justify-content-end">
+        <img class="footerImg" src="./assets/Footer image.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER END -->
 
 
 

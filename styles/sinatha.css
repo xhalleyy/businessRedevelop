@@ -1,5 +1,5 @@
 /* navbar start */
-.navBarFont{
+.navBarFont {
     font-family: 'Stardos Stencil';
     font-size: 23px;
     font-weight: bold;
@@ -13,6 +13,7 @@
 .navActive:active {
     color: white;
 }
+
 /* navbar end */
 
 /* hero image css start */
@@ -22,12 +23,7 @@
     height: auto;
 }
 
-.bgImage {
-    background-image: url(../assets/heroimg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: bottom;
-}
+
 /* hero image css end */
 
 /* view menu button + comments start */
@@ -50,7 +46,7 @@
     border: 2px solid #A76E6E;
 }
 
-.menuBtnFont{
+.menuBtnFont {
     font-family: 'Stardos Stencil';
     font-size: 25px;
     font-weight: bolder;
@@ -71,6 +67,7 @@
     width: auto;
     height: auto;
 }
+
 /* view menu button + comments end */
 
 /* about us card start */
@@ -107,6 +104,7 @@
 .card {
     --bs-card-border-width: 0px;
 }
+
 /* about us card end */
 
 /* best selling drinks carousel start */
@@ -120,6 +118,7 @@
     width: 30px;
     height: px;
 }
+
 .display {
     display: inline-block;
 }
@@ -130,9 +129,10 @@
     font-weight: bold;
 }
 
-.carousel-indicators > li {
+.carousel-indicators>li {
     border-radius: 50%;
-  }
+}
+
 /* best-selling drinks carousel end */
 
 /* explore more drinks start */
@@ -143,4 +143,106 @@
     font-size: 20px;
 }
 
+.exploreMore2 {
+    --bs-btn-hover-color: 005;
+    --bs-btn-hover-bg: #BBF2FA;
+}
 
+/* explore more drinks end */
+
+/* footer start */
+.footerFont {
+    font-family: 'Bitter';
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+.footerImg {
+    width: 300px;
+    height: auto;
+}
+
+/* footer end */
+
+/* reviews cards start */
+.reviewCardBlue {
+    width: 80%;
+    height: 550px;
+    border: 25px solid #D6EDF3;
+    border-radius: 20px;
+}
+
+.reviewCardYellow {
+    width: 80%;
+    height: 550px;
+    border: 25px solid #FBF6C7;
+    border-radius: 20px;
+}
+
+.reviewTitleFont {
+    font-family: 'Bitter';
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+}
+
+.reviewFont {
+    font-family: 'Bitter';
+    font-size: 12px;
+}
+
+.reviewImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+/* review cards end */
+
+/* responsiveness start */
+@media screen and (min-width: 992px) {
+    .bgImage {
+        background-image: url(../assets/heroimg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .bgImage2 {
+        background-image: url(../assets/heroimg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 105%;
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hideSmall {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .showSmall {
+        display: none;
+    }
+}
+
+.btnMenuSmall {
+    font-weight: 600;
+    font-family: 'Stardos Stencil';
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    background-color: #FDD7D2;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid #A76E6E;
+}
