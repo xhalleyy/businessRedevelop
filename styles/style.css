@@ -1,4 +1,3 @@
-/* Halley's Styles */
 .lightPinkBG{
     background-color: #FDD7D2;
 }
@@ -232,6 +231,18 @@ h2.items-style{
     background-color: #BBF2FA;
 }
 
+.accordion{
+    --bs-accordion-border-radius: 20px;
+    --bs-accordion-inner-border-radius: 20px;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-body{
+    border-radius: 20px;
+}
+
+
 .menu-items h2 {
     font-family: 'Bitter';
     font-size: 20px;
@@ -263,7 +274,6 @@ h2.items-style{
     font-size: 17!important;
 }
 
-/* Carousel Indicators for Home Page */
 .carousel-indicators [data-bs-target] {
     height: 12px;
     width: 12px;
