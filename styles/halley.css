@@ -2,6 +2,10 @@
     background-color: #FDD7D2;
 }
 
+.nav-bg-color{
+    background-color: #F6B0AC;
+}
+
 /* Fonts */
 .menuText,
 .category,
@@ -20,24 +24,12 @@
     font-family: 'Bitter';
 }
 
-/* Hero Image and Header */
-/* .menuHero{
-   background-image: url(../assets/menu_component.png);
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
-}
-
-.menuHeader{
-    margin-top: 570px;
-    margin-bottom: 120px;
-} */
-
 .carousel-caption {
     bottom: 2.5rem;
 }
 
 .menuText{
-    font-size: 70px;
+    font-size: 60px;
     background-color: #FBF6C7;
     border-radius: 20px;
     padding: 0px 25px;
@@ -47,7 +39,7 @@
 }
 
 .headerDesc {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     margin-top: 25px;
     color: rgb(255, 255, 255);
@@ -55,14 +47,9 @@
     filter: drop-shadow(0 0 0.3rem rgb(128, 121, 121));
 }
 
-/* icon stylings */
-/* .arrowDown{
-    font-size: 60px!important;
-} */
-
 /* sticky side-bar */
 #sidebar {
-    height: 650px;
+    height: 570px;
     margin: 20px 0px;
     border-right: 3px solid black;  
 }
@@ -86,12 +73,12 @@
 
 .menuCategories,
 .items-style{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .iconText{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -102,7 +89,7 @@
 
 /* Menu Items & Category Name*/
 .category {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -244,6 +231,18 @@ h2.items-style{
     background-color: #BBF2FA;
 }
 
+.accordion{
+    --bs-accordion-border-radius: 20px;
+    --bs-accordion-inner-border-radius: 20px;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-body{
+    border-radius: 20px;
+}
+
+
 .menu-items h2 {
     font-family: 'Bitter';
     font-size: 20px;
@@ -264,7 +263,7 @@ h2.items-style{
 }
 
 .iconBig{
-    font-size: 40px!important;
+    font-size: 45px!important;
 }
 
 .iconSmall{
@@ -273,4 +272,19 @@ h2.items-style{
 
 .mobileIcon{
     font-size: 17!important;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 12px;
+    width: 12px;
+    background-color: #5f4b4b;
+}
+
+.carousel-indicators {
+    border-radius: 50%;
+    bottom: -12%;
+  }
+
+  .carousel .carousel-indicators button {
+    border-radius: 50%;
 }
