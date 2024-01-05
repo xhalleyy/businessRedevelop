@@ -290,3 +290,19 @@
     font-weight: bold;
     text-align: center;
 }
+
+.exploreMoreSml {
+    font-family: 'Bitter';
+    font-weight: bolder;
+    color: #005E75;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.footerImgSmall {
+    width: 180px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
