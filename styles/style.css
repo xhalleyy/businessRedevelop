@@ -296,7 +296,7 @@ h2.items-style{
 /* navbar start */
 .navBarFont {
     font-family: 'Stardos Stencil';
-    font-size: 23px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
 }
@@ -313,8 +313,8 @@ h2.items-style{
 
 /* hero image css start */
 .logoImg {
-    margin-top: 15px;
-    width: 160px;
+    margin-top: 10px;
+    width: 180px;
     height: auto;
 }
 
@@ -343,7 +343,7 @@ h2.items-style{
 
 .menuBtnFont {
     font-family: 'Stardos Stencil';
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bolder;
 }
 
@@ -368,7 +368,7 @@ h2.items-style{
 /* about us card start */
 .aboutTitleFont {
     font-family: 'Stardos Stencil';
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bolder;
     color: black;
 }
@@ -406,7 +406,7 @@ h2.items-style{
 .bestDrinksFont {
     font-family: 'Stardos Stencil';
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .drinkImg {
@@ -420,7 +420,7 @@ h2.items-style{
 
 .drinksFont {
     font-family: 'Stardos Stencil';
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -433,9 +433,9 @@ h2.items-style{
 /* explore more drinks start */
 .exploreMore {
     font-family: 'Bitter';
-    font-weight: bolder;
+    font-weight: 800;
     color: #005E75;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .exploreMore2 {
@@ -448,8 +448,8 @@ h2.items-style{
 /* footer start */
 .footerFont {
     font-family: 'Bitter';
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 20px;
     color: white;
 }
 
