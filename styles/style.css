@@ -1,3 +1,20 @@
+/* Halley's stykes */
+
+.bannerContainer {
+    position:relative;     
+}
+.carousel {
+
+    top:0;    
+}
+.navbar {
+    position:absolute;
+    top:0px;
+    z-index:10;
+    background:#fff;
+    width:100%;
+}
+
 .lightPinkBG{
     background-color: #FDD7D2;
 }
@@ -10,7 +27,9 @@
 .menuText,
 .category,
 .mobileMenuTxt,
-.accordion-button{
+.accordion-button,
+.reviewPageTitle,
+.reviewTitleRes{
     font-family: 'Stardos Stencil';
 }
 
@@ -20,7 +39,9 @@
 .milkSubs,
 .items-style,
 .items-desc,
-.mobileDesc{
+.mobileDesc,
+.reviewDesc
+.reviewDescRes{
     font-family: 'Bitter';
 }
 
@@ -289,6 +310,43 @@ h2.items-style{
     border-radius: 50%;
 }
 
+/* Review Page Title */
+
+.reviewPageTitle{
+    margin-top: 55px;
+    font-size: 60px;
+    font-weight: 700;
+    display: inline;
+    background-color: #FBF6C7;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.reviewDesc{
+    font-family: 'Bitter';
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.reviewDescRes{
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    line-height: 1.2;
+    font-weight: 500 !important;
+}
+
+.reviewTitleRes{
+    margin-top: 85px;
+    font-size: 40px;
+    font-weight: 700;
+    display: inline;
+    background-color: #FBF6C7;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
 /* ///////////////////// */
 
 /* sinatha's styles */
@@ -307,6 +365,10 @@ h2.items-style{
 
 .navActive:active {
     color: white;
+}
+
+.nav-style-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
 }
 
 /* navbar end */
@@ -348,7 +410,7 @@ h2.items-style{
 }
 
 .menuBtnShadow {
-    box-shadow: 10px 5px 5px dimgray;
+    box-shadow: 7px 5px 5px rgba(105, 105, 105, 0.589);
 }
 
 .menuCommentsFont {
@@ -375,9 +437,10 @@ h2.items-style{
 
 .aboutBodyFont {
     font-family: 'Bitter';
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: 600;
     color: black;
+    line-height: 1.4;
 }
 
 .aboutCard {
@@ -452,33 +515,37 @@ h2.items-style{
     font-size: 20px;
     color: white;
 }
+.footerResFont{
+    font-size: 15px !important;
+}
 
 .footerImg {
     width: 300px;
     height: auto;
 }
 
+
 /* footer end */
 
 /* reviews cards start */
 .reviewCardBlue {
     width: 80%;
-    height: 550px;
+    height: 650px;
     border: 25px solid #D6EDF3;
     border-radius: 20px;
 }
 
 .reviewCardYellow {
     width: 80%;
-    height: 550px;
+    height: 650px;
     border: 25px solid #FBF6C7;
     border-radius: 20px;
 }
 
 .reviewTitleFont {
     font-family: 'Bitter';
-    font-weight: bolder;
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -492,7 +559,11 @@ h2.items-style{
     height: 200px;
     object-fit: cover;
     object-position: center;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.card-footer{
+    background-color: transparent;
 }
 
 /* review cards end */
