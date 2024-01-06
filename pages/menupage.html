@@ -92,6 +92,46 @@
   </div>
 </div>
 
+<!-- NavBar Responsiveness -->
+<div class="container-fluid showSmall">
+  <div class="row showSmall ">
+    <nav class="navbar nav-style-shadow bg-body-tertiary fixed-top">
+      <div class="container-fluid" style="background: rgba(249, 165, 165, 0.4); backdrop-filter: blur(10px);">
+        <a class="navbar-brand" href="../index.html">
+          <img class="logoImgSmall" src="../assets/teaAmoLogo 1.png" alt="tea amo logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title offcanvasHeaderFont" id="offcanvasNavbarLabel">TEA AMO</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active offcanvasFont" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active offcanvasFont" href="./menupage.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active offcanvasFont" href="./reviewpage.html">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active offcanvasFont" href="./contactpage.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
   
   <!-- Sticky- SideBar / Categories -->
   <div class="container-fluid d-none d-lg-block">

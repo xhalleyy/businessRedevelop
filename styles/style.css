@@ -535,6 +535,14 @@ h2.items-style{
     border-radius: 20px;
 }
 
+.reviewResBlue {
+    height: 500px !important;
+}
+
+.reviewResYellow {
+    height: 500px !important;
+}
+
 .reviewCardYellow {
     width: 80%;
     height: 650px;
