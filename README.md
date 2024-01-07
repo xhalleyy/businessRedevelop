@@ -12,7 +12,10 @@ The Home menu about us image is weirdly stretched out though, so maybe try and c
 On the "Browse our Menu" page, the very last button is barely visible and can't be scrolled down on. There's also an empty pink bar on the side which I assume is overflow on the page. 
 This isn't a bug, but it would be nice to have a button to return to the top of the page so the user doesn't have to scroll so much to return to the navbar.
 
-- 11/3 : Established who would do what pages; started the basic structure of each page, managed to get the navbar done as well
-- 11/4 : Finished majority of the desktop version for each page; Got the sticky sidebar to work with JS, footer was also done
-- 11/5 : Responsiveness for Home, Menu, and Review Page was done; Contact Page Desktop was finished
-- 11/6 : Touched up on a lot of litte things; Issues with the navbar and the carousel but found a solution; responsiveness for contact's page was done; Added the title/header for review page 
+- 1/3 : Established who would do what pages; started the basic structure of each page, managed to get the navbar done as well
+- 1/4 : Finished majority of the desktop version for each page; Got the sticky sidebar to work with JS, footer was also done
+- 1/5 : Responsiveness for Home, Menu, and Review Page was done; Contact Page Desktop was finished
+- 1/6 : Touched up on a lot of litte things; Issues with the navbar and the carousel but found a solution; responsiveness for contact's page was done; Added the title/header for review page 
+
+fixes:
+1/6 : fixed stretched image (sinatha)
