@@ -332,18 +332,30 @@ h2.items-style{
 
 .reviewDescRes{
     margin-top: 10px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 10px !important;
     line-height: 1.2;
     font-weight: 500 !important;
+    font-size: 17px;
 }
 
 .reviewTitleRes{
-    margin-top: 85px;
     font-size: 40px;
     font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+/* review-margin yellow-res */
+
+.review-margin {
+    margin-top: 85px;
+    margin-bottom: 30px !important;
+}
+
+.yellow-res {
     display: inline;
     background-color: #FBF6C7;
-    padding: 10px 10px;
     border-radius: 20px;
 }
 
